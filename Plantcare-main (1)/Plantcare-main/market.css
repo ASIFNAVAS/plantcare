@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.my-custom-color {
+    background-color: #FCEAE8;
+}
+
+.navbar-custom-color {
+    background-color: lightskyblue;
+}
+
+.catagories img {
+    width: 100px;
+}
+
+.btn.custom-buy-now {
+    background-color: rgb(235, 16, 71);
+    color: white;
+    border: none;
+    padding: 9px 25px;
+    border-radius: 10px;
+}
+
+#navbarNavDropdown > ul > li{
+    margin-right: 40px;
+    font-family: 'Ubuntu', sans-serif;
+}

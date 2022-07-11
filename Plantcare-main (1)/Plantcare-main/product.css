@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+p {
+    color: grey;
+}
+
+.rating {
+    display: block;
+    width: 40px;
+    height: 30px;
+    color: white;
+    padding: 2px;
+}
+
+.btn {
+    float: right;
+}
+
+#navbarNavDropdown > ul > li{
+    margin-right: 40px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.card {
+    transition: transform .2s;
+    /* Animation */
+    border-bottom: 6px solid rgb(41, 138, 68);
+    border-bottom-left-radius: 70px;
+    border-top: 6px solid rgb(41, 138, 68);
+    border-top-right-radius: 70px;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.header {
+    background: white;
+    border-bottom: 5px solid rgb(41, 138, 68);
+    padding: 20px;
+    margin-top: 80px;
+}
+
